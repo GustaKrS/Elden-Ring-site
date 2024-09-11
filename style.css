@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(./imagens/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 210vh;
+    background-attachment: fixed;
+}
+
+
+img{
+    border: 5px solid;
+    border-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    background-color: rgb(58, 58, 58);
+}
+
+p{
+    margin: 5px;
+    text-align: justify;
+}
+
+.introducao{
+    margin: 25px;
+    text-align: justify;
+}
+
+h1{
+    margin-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    margin: 20px;
+}
+
+.menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(29, 29, 29); 
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+li a:hover{
+    color: rgb(209, 171, 0);
+}
+
+.submenu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(29, 29, 29);
+    
+}
+
+.submenu li a{
+    padding: 10px 20px;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.submenu li a:hover{
+    color: rgb(209, 171, 0);
+}
+
+.all{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.retangulo{
+    background-color: rgba(26, 26, 26, 0.877);
+    
+    margin: 20px;
+    width: 70vw;
+    height: auto;
+    
+    border: 10px double;
+    border-color: rgb(160, 123, 1);
+    border-radius: 50px;
+}
+
+.conteudo{
+    color:aliceblue;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+
+.descricao{
+    text-align: left;
+    margin: 30px;
+}
